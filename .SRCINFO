@@ -1,0 +1,13 @@
+pkgbase = iec-symbol-fonts
+	pkgdesc = IEC Power Symbol Fonts
+	pkgver = 1.0
+	pkgrel = 1
+	install = iec-symbol-fonts.install
+	arch = any
+	depends = fontconfig
+	depends = xorg-font-utils
+	source = iec-symbol-fonts.zip::https://github.com/jloughry/Unicode/archive/805536fb6f93604da985d80e0c6b099f98f8b4d9.zip
+	md5sums = ee6b637a39f0509f15c84ab8ca8b0337
+
+pkgname = iec-symbol-fonts
+
